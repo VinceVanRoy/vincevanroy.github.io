@@ -14,21 +14,32 @@ header  {
   width: auto;
 }
 
+.blauw {
+  background-color: #2b3d67;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 280px;
+}
+
 .logo {
   width: 200px;
   height: auto;
   animation: fadein 4s;
-  margin-left: 100px;
-  margin-top: 140px;
+  position: absolute;
+  left: 100px;
+  top: 140px;
+  z-index: 1;
 }
 
 p {
-  color: white;
+  color: #2b3d67;
   position: absolute;
-  right: 50px;
-  top: 50;
-  font-size: 4em;
+  right: 350px;
+  top: 170px;
+  font-size: 3em;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 
