@@ -97,16 +97,15 @@ h2 {
   margin-bottom: 100px;
 }
 
-button {
+.button {
   text-transform: uppercase;
   font-size: 2.5em;
   font-weight: 900;
   text-decoration: none;
-  padding: 25px 50px 25px 50px;
+  padding: 25px 343px 25px 343px;
   border-radius: 2%;
   color: white;
   background-color: #2b3d67;
-  width: 100%;
 }
 
 
