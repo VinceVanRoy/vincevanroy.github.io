@@ -9,11 +9,11 @@ body {
 
 header  {
   background-color: #2b3d67;
-  height: 300px;
+  height: 400px;
 }
 
 .logo {
-  width: 100px;
+  width: 300px;
   height: auto;
   animation: fadein 4s;
   margin-left: 30px;
