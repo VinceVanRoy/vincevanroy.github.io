@@ -9,7 +9,7 @@ body {
 
 header  {
   background-color: #2b3d67;
-  height: 800px;
+  height: 1000px;
   width: auto;
 }
 
@@ -62,7 +62,7 @@ h1 {
   position: absolute;
   color: white;
   left: 170px;
-  top: 300px;
+  top: 350px;
 }
 
 main {
