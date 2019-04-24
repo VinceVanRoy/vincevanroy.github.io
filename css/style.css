@@ -14,11 +14,11 @@ header  {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   height: auto;
   animation: fadein 4s;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 @keyframes fadein {
