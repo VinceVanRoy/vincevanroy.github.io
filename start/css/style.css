@@ -45,6 +45,11 @@ p {
 h1 {
   font-style: italic;
   font-weight: 900;
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 400px;
+  margin-top: 15px;
 }
 
 main {
