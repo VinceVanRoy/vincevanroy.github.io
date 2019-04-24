@@ -11,7 +11,9 @@ header  {
   background-color: #2b3d67;
   height: 1000px;
   width: auto;
-  b
+  -moz-box-shadow:    3px 3px 5px 8px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 8px #ccc;
+  box-shadow:         3px 3px 5px 8px #ccc;
 }
 
 .logo {
@@ -67,10 +69,13 @@ h1 {
 }
 
 main {
-  background-color: green;
+  margin: 100px;
 }
 
 h2 {
-  color: ;
+  color: #747FDF;
   font-weight: 300;
+  font-size: 3em;
+  text-transform: capitalize;
+  text-align: center;
 }
