@@ -61,9 +61,9 @@ header  {
 p {
   color: white;
   position: absolute;
-  right: 90px;
-  top: 50px;
-  font-size: 3em;
+  right: 50px;
+  top: 50;
+  font-size: 4em;
 }
 
 h1 {
@@ -75,10 +75,6 @@ h1 {
   color: white;
   left: 170px;
   top: 350px;
-  -webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 }
 
 main {
