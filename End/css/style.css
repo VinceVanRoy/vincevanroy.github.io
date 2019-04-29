@@ -1,0 +1,36 @@
+@charset "UTF-8";
+html {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+
+.house {
+  color: #2b3d67;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  font-size: 10em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sub {
+  color: #749FDF;
+  position: absolute;
+  left: 150px;
+  top: 930px;
+  font-size: 3em;
+}
+
+.blauw {
+  background-color: #2b3d67;
+  height: 875px;
+  width: 50px;
+}
+
+/* */
