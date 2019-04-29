@@ -147,25 +147,13 @@ span {
 
 /* Einde eerste form */
 
-.control {
-  display: inline;
-  position: relative;
-  padding-left: 100px;
-  margin-bottom: 100px;
-  font-size: 3em;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border-radius: 4%;
-}
-
-.control input {
-  font-size: 1em;
+#bio {
+  margin-left: 100px;
   width: 600px;
-  padding: 20px;
-  border-radius: 2%;
-  height: 200px;
+  height: 50px;
+  padding: 10px;
+  font-size: 2em;
+  border-radius: 1%;
 }
 
 /* Begin Contact */
@@ -173,7 +161,7 @@ span {
 .wit:nth-child(2) {
   background-color: white;
   margin: 40px;
-  height: 550px;
+  height: 370px;
 }
 
 /* The container */
@@ -245,7 +233,7 @@ span {
 .wit:nth-child(4) {
   background-color: white;
   margin: 40px;
-  height: 600px;
+  height: 450px;
   position: relative;
 }
 
@@ -367,7 +355,7 @@ span {
 .wit:nth-child(5) {
   background-color: white;
   margin: 40px;
-  height: 600px;
+  height: 450px;
   position: relative;
   margin-bottom: 100px;
 }
