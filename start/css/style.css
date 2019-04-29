@@ -75,7 +75,7 @@ h2  {
 .container {
   display: inline;
   position: relative;
-  padding-left: 300px;
+  padding-left: 400px;
   margin-bottom: 100px;
   cursor: pointer;
   font-size: 3em;
@@ -97,12 +97,18 @@ h2  {
   position: absolute;
   top: 0;
   left: 100px;
-  height: 130px;
-  width: 350px;
+  height: 100px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
   background-color: #eee;
   border-radius: 1%;
+  color: #313443;
+}
+
+span {
+  text-align: center;
+  padding-top: 50px;
 }
 
 .checkmark input {
@@ -131,15 +137,7 @@ h2  {
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
-.container .checkmark:after {
- 	top: 13px;
-	left: 13px;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background: white;
-}
+
 
 /* Einde eerste button */
 
