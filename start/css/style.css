@@ -52,9 +52,13 @@ h1 {
   margin-top: 20px;
 }
 
-main {
+article {
   background-color: #2b3d67;
-  margin-top: 220px;
+  margin-top: 180px;
+}
+
+main {
+  background-color: white;
 }
 
 /* Begin eerste button */
@@ -62,7 +66,6 @@ main {
 .wit {
   background-color: white;
   margin: 40px;
-  height: 400px;
 }
 
 h2  {
@@ -77,7 +80,7 @@ h2  {
   display: inline;
   position: relative;
   padding-left: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 400px;
   cursor: pointer;
   font-size: 3em;
   -webkit-user-select: none;
