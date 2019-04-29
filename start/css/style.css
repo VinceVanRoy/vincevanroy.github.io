@@ -74,6 +74,7 @@ h2  {
   font-size: 3.5em;
   margin-bottom: 50px;
   padding-top: 100px;
+  width: 770px;
 }
 
 /* The container */
@@ -164,6 +165,89 @@ span {
   border-radius: 2%;
 }
 
+/* Begin Contact */
+
+.wit:nth-child(3) {
+  background-color: white;
+  margin: 40px;
+  height: 550px;
+}
+
+/* The container */
+.containers {
+  display: inline;
+  position: relative;
+  padding-left: 400px;
+  margin-bottom: 400px;
+  cursor: pointer;
+  font-size: 3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containers input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmarks {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  height: 100px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  border-radius: 1%;
+  color: #313443;
+}
+
+span {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.checkmarks input {
+  margin-left: 100px;
+}
+
+/* On mouse-over, add a grey background color */
+.containers:hover input ~ .checkmarks {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containers input:checked ~ .checkmarks {
+  background-color: #747FDF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarks:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containers input:checked ~ .checkmarks:after {
+  display: block;
+}
+
+.wit:nth-child(4) {
+  background-color: white;
+  margin: 40px;
+  height: 900px;
+}
+
+.wit:nth-child(5) .containers:nth-child(3) {
+padding-top: 100px;
+}
 
 
 
