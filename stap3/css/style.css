@@ -65,17 +65,25 @@ main {
 }
 
 label {
-  margin-top: 
 }
 
 .white {
- height: 500px;
+ height: 700px;
  width: 100%;
  background-color: #2b3d67;
 }
 
 form {
   font-size: 2em;
+}
+
+form input {
+  width: 600px;
+}
+
+#name, #mail, #password, #telefoon {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
