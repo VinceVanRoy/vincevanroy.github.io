@@ -320,12 +320,9 @@ span {
 
 .wit:nth-child(5) {
   background-color: white;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 40px;
   height: 800px;
   position: relative;
-  margin-bottom: 100px;
 }
 
 .wit:nth-child(5) .container:nth-child(3) {
@@ -349,23 +346,6 @@ span {
   position: absolute;
   top: 550px;
   left: 400px;
-}
-
-.button {
-  text-transform: uppercase;
-  font-size: 2.5em;
-  font-weight: 900;
-  text-decoration: none;
-  padding: 25px 343px 25px 343px;
-  border-radius: 2%;
-  color: #2b3d67;
-  background-color: white;
-  margin-top: 150px;
-  margin-left: 100px;
-}
-
-.white {
-  height: 3600px;
 }
 
 
