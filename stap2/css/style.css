@@ -328,7 +328,7 @@ span {
 
 .wit:nth-child(3) .container:nth-child(3) {
   position: absolute;
-  top: 290px;
+  top: 210px;
   left: 400px;
 }
 
@@ -337,15 +337,25 @@ span {
   font-size: 1.7em;
 }
 
+.wit:nth-child(3) .container:nth-child(3) span {
+  padding-bottom: 25px;
+  font-size: 1.7em;
+}
+
+.wit:nth-child(3) .container:nth-child(4) span {
+  padding-bottom: 25px;
+  font-size: 1.7em;
+}
+
 .wit:nth-child(3) .container:nth-child(4) {
   position: absolute;
-  top: 550px;
+  top: 450px;
   left: 0px;
 }
 
 .wit:nth-child(3) .container:nth-child(5) {
   position: absolute;
-  top: 550px;
+  top: 460px;
   left: 400px;
 }
 
