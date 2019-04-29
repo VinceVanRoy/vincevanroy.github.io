@@ -138,9 +138,24 @@ span {
   display: block;
 }
 
+/* Einde eerste form */
 
+/* Begin tweede form */
 
-/* Einde eerste button */
+.control {
+  display: inline;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 100px;
+  font-size: 3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 4%;
+}
+
+/* Einde tweede form */
 
 
 
