@@ -144,8 +144,6 @@ span {
 
 /* Einde eerste form */
 
-/* Begin tweede form */
-
 .control {
   display: inline;
   position: relative;
@@ -162,9 +160,11 @@ span {
 .control input {
   font-size: 1em;
   width: 600px;
+  padding: 20px;
+  border-radius: 2%;
 }
 
-/* Einde tweede form */
+
 
 
 
