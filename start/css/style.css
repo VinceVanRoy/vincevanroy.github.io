@@ -35,7 +35,7 @@ header  {
 p {
   color: #2b3d67;
   position: absolute;
-  right: 345px;
+  right: 250px;
   top: 170px;
   font-size: 3em;
   text-transform: uppercase;
@@ -56,6 +56,8 @@ main {
   background-color: #2b3d67;
   margin-top: 220px;
 }
+
+/* Begin eerste button */
 
 .wit {
   background-color: white;
@@ -138,6 +140,8 @@ h2  {
 	border-radius: 50%;
 	background: white;
 }
+
+/* Einde eerste button */
 
 
 
