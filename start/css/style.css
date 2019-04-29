@@ -108,6 +108,7 @@ h2  {
   margin-left: auto;
   margin-right: auto;
   background-color: #eee;
+  font-size: 2em;
   border-radius: 1%;
   color: #313443;
 }
@@ -264,9 +265,88 @@ span {
   top: 760px;
 }
 
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
 
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  height: 100px;
+  width: 320px;
+  background-color: #eee;
+  border-radius: 1%;
+  color: #313443;
+}
 
+.checkmark input {
+  margin-left: 100px;
+}
+
+.container span {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #747FDF;
+}
+
+.wit:nth-child(5) {
+  background-color: white;
+  margin: 40px;
+  height: 800px;
+  position: relative;
+}
+
+.wit:nth-child(5) .container:nth-child(3) {
+  position: absolute;
+  top: 290px;
+  left: 400px;
+}
+
+.wit:nth-child(5) .container:nth-child(2) span {
+  padding-bottom: 25px;
+  font-size: 1.7em;
+}
+
+.wit:nth-child(5) .container:nth-child(4) {
+  position: absolute;
+  top: 550px;
+  left: 0px;
+}
+
+.wit:nth-child(5) .container:nth-child(5) {
+  position: absolute;
+  top: 550px;
+  left: 400px;
+}
 
 
 
