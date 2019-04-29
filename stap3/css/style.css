@@ -64,10 +64,18 @@ main {
   background-color: white;
 }
 
+label {
+  margin-top: 
+}
+
 .white {
  height: 500px;
- width: 1000px;
+ width: 100%;
  background-color: #2b3d67;
+}
+
+form {
+  font-size: 2em;
 }
 
 
