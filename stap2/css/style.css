@@ -244,7 +244,7 @@ span {
 .wit:nth-child(4) {
   background-color: white;
   margin: 40px;
-  height: 1000px;
+  height: 600px;
   position: relative;
 }
 
@@ -322,7 +322,7 @@ span {
 .wit:nth-child(3) {
   background-color: white;
   margin: 40px;
-  height: 800px;
+  height: 700px;
   position: relative;
 }
 
@@ -361,6 +361,13 @@ span {
 
 .wit:nth-child(1) {
   height: 550px;
+}
+
+.wit:nth-child(5) {
+  background-color: white;
+  margin: 40px;
+  height: 600px;
+  position: relative;
 }
 
 
