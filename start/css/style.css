@@ -242,14 +242,27 @@ span {
 .wit:nth-child(4) {
   background-color: white;
   margin: 40px;
-  height: 900px;
+  height: 1000px;
+  position: relative;
 }
 
-.wit:nth-child(5) .containers:nth-child(3) {
-padding-top: 100px;
+.wit:nth-child(4) .containers:nth-child(3) {
+  position: absolute;
+  left: 0px;
+  top: 550px;
 }
 
+.wit:nth-child(4) .containers:nth-child(2) {
+  position: absolute;
+  left: 400px;
+  top: 550px;
+}
 
+.wit:nth-child(4) .containers:nth-child(4) {
+  position: absolute;
+  left: 0px;
+  top: 760px;
+}
 
 
 
