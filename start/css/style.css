@@ -349,6 +349,7 @@ span {
   position: absolute;
   top: 550px;
   left: 400px;
+  margin-bottom: 100px;
 }
 
 .button {
@@ -356,12 +357,11 @@ span {
   font-size: 2.5em;
   font-weight: 900;
   text-decoration: none;
-  padding: 25px 343px 25px 343px;
+  padding: 25px 200px 25px 200px;
   border-radius: 2%;
   color: #2b3d67;
   background-color: white;
-  margin-top: 150px;
-  margin-left: 100px;
+  margin-left: 220px;
 }
 
 .white {
